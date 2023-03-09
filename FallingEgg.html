@@ -1,0 +1,54 @@
+<html lang="ar">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .flip {
+            transform: rotateY(180deg)
+        }
+
+        img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        .targetEgg {
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .message {
+            width: 30%;
+            height: 200px;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: beige;
+            border-radius: 10px;
+            display: none;
+            transition: display 1s;
+        }
+
+        h2 {
+            color: brown;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="message">
+        <h2>Hi</h2>
+    </div>
+    <img class="targetEgg" src="https://i.ibb.co/7CKFByJ/1182.png">
+    <img src="https://i.ibb.co/ZW6rrkS/basket.png" style="width: 200px; height: 150px;" id="basket" />
+
+    <script src="fallingEgg.js">
+
+    </script>
+</body>
+
+</html>
